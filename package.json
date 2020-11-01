@@ -1,0 +1,28 @@
+{
+  "name": "dev_int",
+  "version": "1.0.0",
+  "description": "Dev_int",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "main",
+    "homepage",
+    "int"
+  ],
+  "author": "int",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "request": "^2.88.2",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {}
+}

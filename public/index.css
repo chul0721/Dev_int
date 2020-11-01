@@ -1,0 +1,138 @@
+* {
+    background-color: black;
+}
+
+#page1 {
+    color: #fff;
+    padding-bottom: 800px;
+}
+
+#click {
+    color: white;
+}
+
+#int {
+    font-size: 500%;
+    text-align: center;
+    padding-top: 15%;    
+    line-height: 70px;
+}
+
+#int3 {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#line {
+    border-top: 1px solid white;
+    border-radius: 1px;
+}
+
+#introduce_1 {
+    font-size: 50%;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+#icons {
+    text-align: center;
+    font-size: 30px;
+}
+
+.icon-github-circled:hover {
+    opacity: 50%;
+}
+
+.icon-mail-alt:hover {
+    opacity: 50%;
+}
+
+#page2 {
+    color: #fff;
+    padding-bottom: 800px;
+}
+
+@media screen and (min-width: 1500px) {
+    .description {
+        color: #000000;
+        border-bottom: #000000 solid 2px;
+        padding-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 1499px) {
+    .description {
+        color: #fff;
+        border-bottom: #242424 solid 2px;
+        padding-bottom: 8px;
+    }
+}
+/*스크롤 다운 모션*/
+
+.scrolldown
+{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scrolldown:hover {
+    cursor: pointer;
+}
+
+.scrolldown span
+{
+    display: block;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    margin: -10px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    animation: animate 2s infinite;
+}
+
+.scrolldown span:nth-child(1)
+{
+    animation-delay: -0.4s;
+}
+
+/*
+.scrolldown span:nth-child(3)
+{
+    animation-delay: -0.2s;
+}
+*/
+/* 스크롤 다운 모션*/
+
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+      
+    }
+
+    50%
+    {
+        opacity: 1;
+    }
+
+    100%
+    {
+        opacity: 0;
+    
+    }
+}
