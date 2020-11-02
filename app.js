@@ -1,3 +1,4 @@
+/*
 const http = require('http');
 const fs = require('fs');
 const url = require('url');
@@ -21,3 +22,4 @@ app.use('/fontello', express.static('fontello'));
 let server = app.listen(port, () => {
   console.log(`Server on : ${port}`);
 })
+*/
