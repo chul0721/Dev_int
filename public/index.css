@@ -1,5 +1,6 @@
 * {
     background-color: black;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 #page1 {
@@ -16,16 +17,7 @@
     text-align: center;
     padding-top: 15%;    
     line-height: 70px;
-}
-
-#int3 {
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-#line {
-    border-top: 1px solid white;
-    border-radius: 1px;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 #introduce_1 {
@@ -60,7 +52,7 @@ a:visited{
 
 #page2 {
     color: #fff;
-    padding-bottom: 800px;
+    padding-bottom: 500px;
 }
 
 @media screen and (min-width: 1500px) {
@@ -135,4 +127,90 @@ a:visited{
         opacity: 0;
     
     }
+}
+
+
+.inner {
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+
+ h1 {
+    margin-bottom: 0%;
+    font-size: 60px; 
+    color: rgba(255, 255, 255, 0.2); 
+    background-size: 101% 100%; 
+    background-position: left 0px bottom -40px;
+    background-repeat: repeat-x;
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 90 240 300' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='500' height='800' style='stroke: none; fill: rgb(255,255,255);' /%3E%3Cpath d='M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z' style='stroke: none;'%3E%3C/path%3E%3C/svg%3E");
+    animation: wave 3s both linear
+}
+
+@keyframes wave {
+    0% {
+        background-position: left 0px bottom -80px;
+    }
+    100% { 
+        background-position: left 1500px bottom 20px;
+    }
+}
+
+.myintro {
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: 'Do Hyeon', sans-serif;
+    padding-bottom: 20px;
+}
+
+.tree{
+    color:#fff;
+}
+.tree, .tree ul{
+    list-style: none;
+    padding-left:17px;
+}
+.tree *:before{
+    width:17px;
+    height:17px;
+    display:inline-block;
+}
+.tree label{
+    cursor: pointer;
+}
+.tree label:before{
+    content:'\1f4c4';
+    font-family: fontello;
+}
+.tree a{
+    text-decoration: none;
+    color:#fff;
+}
+.tree a:before{
+    content:'\1f4c4';
+    font-family: fontello;
+}
+.tree input[type="checkbox"] {
+    display: none;
+}
+.tree input[type="checkbox"]:checked~ul {
+    display: none;
+}
+.tree input[type="checkbox"]:checked+label:before{
+    content:'\f15b';
+    font-family: fontello;
+}
+
+.line {
+    border-top: 1px solid white;
+    border-radius: 1px;
+    padding-bottom: 20px;
+}
+
+#copyright {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
 }

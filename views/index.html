@@ -14,44 +14,80 @@
   </head>
 <body>
   <div class="description" data-aos="fade-down">
-    이 웹 페이지는 데스크탑 전체 화면으로 감상하시는것을 권장합니다.
+    Dev int
   </div>
-  <!-- First Section -->
+
   <section id="page1">
     <div id="int">
-      <div id="int2">
-        int
-      </div>
-      <div id="introduce_1">
-        <span id="mytext"></span> 개발자
-      </div>
+
+        <div id="int2">
+            <span class="inner">
+                <h1> int </h1>
+            </span>
+        </div>
+
+        <div id="introduce_1">
+            <span id="mytext"></span> 개발자
+        </div>
+
     </div>
+
     <div id="icons">
-      <a href="https://github.com/chul0721" target="blank">
-        <i class="icon-github-circled"></i>
-      </a>
-      <a href="mailto:chul070721@naver.com">
-        <i class="icon-mail-alt"></i>
-      </a>
+        <a href="https://github.com/chul0721" target="blank">
+            <i class="icon-github-circled"></i>
+        </a>
+        <a href="mailto:chul070721@naver.com">
+            <i class="icon-mail-alt"></i>
+        </a>
     </div>
   </section> 
 
   <span class="scrolldown" id="scroll">
-    <span></span>
+      <span></span>
   </span>
 
-  <div id="line"></div>
-  
-  <br><br><br><br>
-  <br><br><br><br>
-
   <section id="page2">
-    <h1 id="int3">int</h1>
+    <h1 id="int3">
+      <img src="../public/img/int2.png" style="height: auto; width: 200px;">
+    </h1>
+
+    <div class="myintro">
+      저의 프로젝트들은 전부 아래의 주소에 저장되어 있어요.
+    </div>
+
+    <div class="line"></div>
+
+      <ul class="tree">
+        <li>
+          <input type="checkbox" id="root">
+          <label for="root">/</label>
+          <ul>
+            <li><a href="https://intteam.co.kr" target="blank">intteam.co.kr</a> - int Team</li>
+            <li><a href="">null</a></li>
+            <li>
+              <input type="checkbox" id="node3">
+              <label for="node3">null</label>
+              <ul>
+                <li><a href="">null</a></li>
+                <li><a href="">null</a></li>
+                <li><a href="">null</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
   </section>
+
+  <div class="line">
+
+  </div>
+
+  <section id="copyright">
+    Copyright 2020 int. All rights reserved.
+  </section>
+
   <script>
     AOS.init();
-
-    //페이지 이동
     $(document).ready(function(){
       $('#scroll').click(function(){
       var offset = $('#page2').offset();

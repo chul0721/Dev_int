@@ -1,3 +1,7 @@
+@charset "UTF-8";
 
+ 
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-doc-inv:before { content: '\f15b'; } /* '' */
+.icon-doc:before { content: '📄'; } /* '\1f4c4' */
